@@ -1,4 +1,7 @@
 {
   "item.lofodras_1st_mod.ruby" : "Ruby",
-  "item.lofodras_1st_mod.raw_ruby" : "Raw Ruby"
+  "item.lofodras_1st_mod.raw_ruby" : "Raw Ruby",
+
+  "block.lofodras_1st_mod.ruby_block": "Ruby Block",
+  "block.lofodras_1st_mod.raw_ruby_block": "Raw Ruby Block"
 }

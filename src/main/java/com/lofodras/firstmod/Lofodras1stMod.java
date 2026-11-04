@@ -1,5 +1,6 @@
 package com.lofodras.firstmod;
 
+import com.lofodras.firstmod.block.ModBlocks;
 import com.lofodras.firstmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -15,5 +16,6 @@ public class Lofodras1stMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
         ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

@@ -1,4 +1,7 @@
 {
   "item.lofodras_1st_mod.ruby" : "Rubin",
-  "item.lofodras_1st_mod.raw_ruby" : "Surowy Rubin"
+  "item.lofodras_1st_mod.raw_ruby" : "Surowy Rubin",
+
+  "block.lofodras_1st_mod.ruby_block": "Blok Rubinu",
+  "block.lofodras_1st_mod.raw_ruby_block": "Blok Surowego Rubinu"
 }
