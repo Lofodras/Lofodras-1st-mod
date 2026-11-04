@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "lofodras_1st_mod:item/raw_ruby"
+  }
+}
