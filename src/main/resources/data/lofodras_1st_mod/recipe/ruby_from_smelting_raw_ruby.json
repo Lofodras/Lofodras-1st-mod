@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.2,
+  "group": "ruby",
+  "ingredient": {
+    "item": "lofodras_1st_mod:raw_ruby"
+  },
+  "result": {
+    "id": "lofodras_1st_mod:ruby"
+  }
+}

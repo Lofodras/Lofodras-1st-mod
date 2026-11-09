@@ -3,5 +3,10 @@
   "item.lofodras_1st_mod.raw_ruby" : "Raw Ruby",
 
   "block.lofodras_1st_mod.ruby_block": "Ruby Block",
-  "block.lofodras_1st_mod.raw_ruby_block": "Raw Ruby Block"
+  "block.lofodras_1st_mod.raw_ruby_block": "Raw Ruby Block",
+  "block.lofodras_1st_mod.ruby_ore": "Ruby Ore",
+  "block.lofodras_1st_mod.ruby_deepslate_ore": "Ruby Deepslate Ore",
+
+  "itemgroup.lofodras_1st_mod.ruby_items": "Ruby Items",
+  "itemgroup.lofodras_1st_mod.ruby_blocks": "Ruby Blocks"
 }

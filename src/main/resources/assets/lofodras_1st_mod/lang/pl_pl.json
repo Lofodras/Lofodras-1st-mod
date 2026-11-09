@@ -3,5 +3,10 @@
   "item.lofodras_1st_mod.raw_ruby" : "Surowy Rubin",
 
   "block.lofodras_1st_mod.ruby_block": "Blok Rubinu",
-  "block.lofodras_1st_mod.raw_ruby_block": "Blok Surowego Rubinu"
+  "block.lofodras_1st_mod.raw_ruby_block": "Blok Surowego Rubinu",
+  "block.lofodras_1st_mod.ruby_ore": "Złoże Rubinu",
+  "block.lofodras_1st_mod.ruby_deepslate_ore": "Łupkowe Złoże Rubinu",
+
+  "itemgroup.lofodras_1st_mod.ruby_items": "Rubinowe Przedmioty",
+  "itemgroup.lofodras_1st_mod.ruby_blocks": "Rubinowe Bloki"
 }

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "lofodras_1st_mod:ruby_block",
+    "lofodras_1st_mod:raw_ruby_block",
+    "lofodras_1st_mod:ruby_ore",
+    "lofodras_1st_mod:ruby_deepslate_ore"
+  ]
+}
