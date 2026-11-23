@@ -1,6 +1,7 @@
 package com.lofodras.firstmod.block;
 
 import com.lofodras.firstmod.Lofodras1stMod;
+import com.lofodras.firstmod.block.custom.RubyChangerBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -30,6 +31,9 @@ public class ModBlocks {
     public static final Block RUBY_DEEPSLATE_ORE = registerBlock("ruby_deepslate_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
                     AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+
+    public static final Block RUBY_CHANGER_BLOCK = registerBlock("ruby_changer_block",
+            new RubyChangerBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

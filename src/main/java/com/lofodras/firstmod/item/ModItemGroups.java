@@ -2,6 +2,7 @@ package com.lofodras.firstmod.item;
 
 import com.lofodras.firstmod.Lofodras1stMod;
 import com.lofodras.firstmod.block.ModBlocks;
+import com.lofodras.firstmod.item.custom.ChiselItem;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -19,6 +20,8 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.RUBY);
                         entries.add(ModItems.RAW_RUBY);
+
+                        entries.add(ModItems.CHISEL);
                     }).build());
 
     public static final ItemGroup RUBY_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -30,6 +33,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RAW_RUBY_BLOCK);
                         entries.add(ModBlocks.RUBY_ORE);
                         entries.add(ModBlocks.RUBY_DEEPSLATE_ORE);
+                        entries.add(ModBlocks.RUBY_CHANGER_BLOCK);
                     }).build());
 
     public static void registerItemGroups() {
