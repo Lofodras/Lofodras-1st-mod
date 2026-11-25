@@ -5,6 +5,7 @@ import com.lofodras.firstmod.item.ModItemGroups;
 import com.lofodras.firstmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.minecraft.util.Identifier;
 
 import org.slf4j.Logger;
@@ -20,5 +21,7 @@ public class Lofodras1stMod implements ModInitializer {
 		ModItemGroups.registerItemGroups();
         ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		FuelRegistry.INSTANCE.add(ModItems.RUBY_POWDER, 800);
 	}
 }

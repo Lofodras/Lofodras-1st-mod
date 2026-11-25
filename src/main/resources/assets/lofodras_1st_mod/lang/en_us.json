@@ -2,6 +2,8 @@
   "item.lofodras_1st_mod.ruby" : "Ruby",
   "item.lofodras_1st_mod.raw_ruby" : "Raw Ruby",
   "item.lofodras_1st_mod.chisel" : "Chisel",
+  "item.lofodras_1st_mod.strawberry" : "Strawberry",
+  "item.lofodras_1st_mod.ruby_powder" : "Ruby Powder",
 
   "block.lofodras_1st_mod.ruby_block": "Ruby Block",
   "block.lofodras_1st_mod.raw_ruby_block": "Raw Ruby Block",
@@ -10,6 +12,5 @@
 
   "block.lofodras_1st_mod.ruby_changer_block": "Ruby Changer Block",
 
-  "itemgroup.lofodras_1st_mod.ruby_items": "Ruby Items",
-  "itemgroup.lofodras_1st_mod.ruby_blocks": "Ruby Blocks"
+  "itemgroup.lofodras_1st_mod": "Lofodras 1st Mod"
 }

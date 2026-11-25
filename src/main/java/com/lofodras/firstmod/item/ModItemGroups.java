@@ -13,27 +13,21 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
 
-    public static final ItemGroup RUBY_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(Lofodras1stMod.MOD_ID, "ruby_items"),
+    public static final ItemGroup LOFODRAS_1AT_MOD = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(Lofodras1stMod.MOD_ID, "lofodras_1st_mod"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.RUBY))
-                    .displayName(Text.translatable("itemgroup.lofodras_1st_mod.ruby_items"))
-                    .entries((displayContext, entries) -> {
-                        entries.add(ModItems.RUBY);
-                        entries.add(ModItems.RAW_RUBY);
-
-                        entries.add(ModItems.CHISEL);
-                    }).build());
-
-    public static final ItemGroup RUBY_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(Lofodras1stMod.MOD_ID, "ruby_blocks"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.RUBY_BLOCK))
-                    .displayName(Text.translatable("itemgroup.lofodras_1st_mod.ruby_blocks"))
+                    .displayName(Text.translatable("itemgroup.lofodras_1st_mod"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.RAW_RUBY_BLOCK);
                         entries.add(ModBlocks.RUBY_ORE);
                         entries.add(ModBlocks.RUBY_DEEPSLATE_ORE);
                         entries.add(ModBlocks.RUBY_CHANGER_BLOCK);
+                        entries.add(ModItems.RUBY);
+                        entries.add(ModItems.RAW_RUBY);
+                        entries.add(ModItems.CHISEL);
+                        entries.add(ModItems.STRAWBERRY);
+                        entries.add(ModItems.RUBY_POWDER);
                     }).build());
 
     public static void registerItemGroups() {

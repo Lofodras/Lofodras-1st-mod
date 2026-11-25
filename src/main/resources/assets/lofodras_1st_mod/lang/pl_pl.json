@@ -2,6 +2,8 @@
   "item.lofodras_1st_mod.ruby" : "Rubin",
   "item.lofodras_1st_mod.raw_ruby" : "Surowy Rubin",
   "item.lofodras_1st_mod.chisel" : "Dłuto",
+  "item.lofodras_1st_mod.strawberry" : "Truskawka",
+  "item.lofodras_1st_mod.ruby_powder" : "Rubinowy Proszek",
 
   "block.lofodras_1st_mod.ruby_block": "Blok Rubinu",
   "block.lofodras_1st_mod.raw_ruby_block": "Blok Surowego Rubinu",
@@ -10,6 +12,5 @@
 
   "block.lofodras_1st_mod.ruby_changer_block": "Blok Rubinowego Zmieniacza",
 
-  "itemgroup.lofodras_1st_mod.ruby_items": "Rubinowe Przedmioty",
-  "itemgroup.lofodras_1st_mod.ruby_blocks": "Rubinowe Bloki"
+  "itemgroup.lofodras_1st_mod": "Lofodras 1st Mod"
 }

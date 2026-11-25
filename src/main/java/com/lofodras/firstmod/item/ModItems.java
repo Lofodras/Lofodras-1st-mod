@@ -15,6 +15,9 @@ public class ModItems {
 
     public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(32)));
 
+    public static final Item STRAWBERRY = registerItem("strawberry", new Item(new Item.Settings().food(ModFoodComponents.STRAWBERRY)));
+
+    public static final Item RUBY_POWDER = registerItem("ruby_powder", new Item(new Item.Settings()));
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(Lofodras1stMod.MOD_ID, name), item);
     }
