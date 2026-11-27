@@ -28,6 +28,7 @@ public class ModItemGroups {
                         entries.add(ModItems.CHISEL);
                         entries.add(ModItems.STRAWBERRY);
                         entries.add(ModItems.RUBY_POWDER);
+                        entries.add(ModItems.DASH_ITEM);
                     }).build());
 
     public static void registerItemGroups() {

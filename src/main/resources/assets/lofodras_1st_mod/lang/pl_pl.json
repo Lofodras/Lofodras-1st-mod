@@ -2,6 +2,7 @@
   "item.lofodras_1st_mod.ruby" : "Rubin",
   "item.lofodras_1st_mod.raw_ruby" : "Surowy Rubin",
   "item.lofodras_1st_mod.chisel" : "Dłuto",
+  "item.lofodras_1st_mod.dash_item" : "Rubinowy Pęd",
   "item.lofodras_1st_mod.strawberry" : "Truskawka",
   "item.lofodras_1st_mod.ruby_powder" : "Rubinowy Proszek",
 
@@ -12,5 +13,11 @@
 
   "block.lofodras_1st_mod.ruby_changer_block": "Blok Rubinowego Zmieniacza",
 
-  "itemgroup.lofodras_1st_mod": "Lofodras 1st Mod"
+  "itemgroup.lofodras_1st_mod": "Lofodras 1st Mod",
+
+  "tooltip.lofodras_1st_mod.ruby_changer_block.tooltip": "Zamienia §cSUROWE RUBINY§7 w §9STEKI!",
+  "tooltip.lofodras_1st_mod.chisel.shift_down": "Ten przedmiot zamienia bloki w inne bloki, ale działają tylko niektóre, haha!",
+  "tooltip.lofodras_1st_mod.chisel": "Przytrzymaj §eSHIFT§r, aby uzyskać więcej informacji",
+  "tooltip.lofodras_1at_mod.strawberry_tooltip": "§7Truskawki§r są takie pyszne! Mniam!"
+
 }

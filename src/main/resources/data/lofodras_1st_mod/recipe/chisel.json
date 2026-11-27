@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  R",
+    " S ",
+    "S  "
+  ],
+  "key": {
+    "R": {
+      "item": "lofodras_1st_mod:ruby"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "lofodras_1st_mod:chisel",
+    "count": 1
+  }
+}

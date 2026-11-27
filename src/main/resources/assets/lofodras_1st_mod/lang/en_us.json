@@ -2,6 +2,7 @@
   "item.lofodras_1st_mod.ruby" : "Ruby",
   "item.lofodras_1st_mod.raw_ruby" : "Raw Ruby",
   "item.lofodras_1st_mod.chisel" : "Chisel",
+  "item.lofodras_1st_mod.dash_item" : "Dash Item",
   "item.lofodras_1st_mod.strawberry" : "Strawberry",
   "item.lofodras_1st_mod.ruby_powder" : "Ruby Powder",
 
@@ -12,5 +13,11 @@
 
   "block.lofodras_1st_mod.ruby_changer_block": "Ruby Changer Block",
 
-  "itemgroup.lofodras_1st_mod": "Lofodras 1st Mod"
+  "itemgroup.lofodras_1st_mod": "Lofodras 1st Mod",
+
+  "tooltip.lofodras_1st_mod.ruby_changer_block.tooltip": "Turns §cRAW RUBIES§7 into §9STEAKS!",
+  "tooltip.lofodras_1st_mod.chisel.shift_down": "Turns blocks into §bdifferent blocks§r, though only some work, haha!",
+  "tooltip.lofodras_1st_mod.chisel": "Press §eSHIFT§r for more information",
+  "tooltip.lofodras_1at_mod.strawberry_tooltip": "§7Strawberries§r are so delicious! Yummy!"
+
 }
